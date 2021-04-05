@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  h1{
+    color:#3fc1c9;
+  }
+  .tudao{
+    margin: 100px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+  }
+  .quadrado{
+    width: 100px;
+    height: 100px;
+    animation-name: trocadecor,girar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  
+    }
+  
+    @keyframes trocadecor{
+    0% {background-color:#f9ed69}
+    10% {background-color:#f08a5d;}
+    20% {background-color:#b83b5e;} 
+    30% {background-color:#6a2c70;} 
+    100% {background-color:#ff2e63;} 
+
+
+  
+  }
+  @keyframes girar{
+    to{
+      transform: rotate(360deg);
+    }
+  }
+
+  h1{
+  text-align: center;
+  
+  }
+  #botao,iniciar{text-align: center;  
+  }
+  .buton, iniciar{
+    margin: 5px;
+    font-size: 18px;
+    background:#a6e3e9;
+    padding: 10px 10px;
+    border-radius: 20px;
+   
+     
+  }
+  .buton:hover{
+    background: #cbf1f5;
+    }
+  
+  
